@@ -12,7 +12,7 @@ open class RNPieChartManager: RCTViewManager {
     return ins;
   }
 
-  override public static func requiresMainQueueSetup() -> Bool {
+  override open static func requiresMainQueueSetup() -> Bool {
     return true;
   }
 
